@@ -5,7 +5,7 @@ cask "gifted" do
   url "https://api.playsthetic.com/v1/gifted/download/#{version}/aarch64-apple-darwin"
   name "Gifted"
   desc "GIF-based infinite music videos reacting to live audio"
-  homepage "https://playsthetic.com/application/gifted"
+  homepage "https://playsthetic.com/gifted"
 
   livecheck do
     url "https://api.playsthetic.com/v1/gifted"

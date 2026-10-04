@@ -5,7 +5,7 @@ cask "ramble" do
   url "https://api.playsthetic.com/v1/ramble/download/#{version}/aarch64-apple-darwin"
   name "Ramble"
   desc "Cross-post with ease"
-  homepage "https://playsthetic.com/application/ramble"
+  homepage "https://playsthetic.com/ramble"
 
   livecheck do
     url "https://api.playsthetic.com/v1/ramble"

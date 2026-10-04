@@ -5,7 +5,7 @@ cask "playa" do
   url "https://api.playsthetic.com/v1/playa/download/#{version}/aarch64-apple-darwin"
   name "Playa"
   desc "Play your own music"
-  homepage "https://playsthetic.com/application/playa"
+  homepage "https://playsthetic.com/playa"
 
   livecheck do
     url "https://api.playsthetic.com/v1/playa"
