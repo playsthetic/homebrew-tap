@@ -5,7 +5,7 @@ cask "grimoire" do
   url "https://api.playsthetic.com/v1/grimoire/download/#{version}/aarch64-apple-darwin"
   name "Grimoire"
   desc "Read the comics you already own"
-  homepage "https://playsthetic.com/application/grimoire"
+  homepage "https://playsthetic.com/grimoire"
 
   livecheck do
     url "https://api.playsthetic.com/v1/grimoire"

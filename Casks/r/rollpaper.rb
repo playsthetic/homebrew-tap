@@ -5,7 +5,7 @@ cask "rollpaper" do
   url "https://api.playsthetic.com/v1/rollpaper/download/#{version}/aarch64-apple-darwin"
   name "Rollpaper"
   desc "Menu-bar wallpaper rotator"
-  homepage "https://playsthetic.com/application/rollpaper"
+  homepage "https://playsthetic.com/rollpaper"
 
   livecheck do
     url "https://api.playsthetic.com/v1/rollpaper"

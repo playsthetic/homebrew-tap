@@ -5,7 +5,7 @@ cask "gitoptic" do
   url "https://api.playsthetic.com/v1/gitoptic/download/#{version}/aarch64-apple-darwin"
   name "Gitoptic"
   desc "Visual diffs for binary files in Git"
-  homepage "https://playsthetic.com/application/gitoptic"
+  homepage "https://playsthetic.com/gitoptic"
 
   livecheck do
     url "https://api.playsthetic.com/v1/gitoptic"

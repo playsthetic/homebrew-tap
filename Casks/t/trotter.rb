@@ -5,7 +5,7 @@ cask "trotter" do
   url "https://api.playsthetic.com/v1/trotter/download/#{version}/aarch64-apple-darwin"
   name "Trotter"
   desc "Trip mapping"
-  homepage "https://playsthetic.com/application/trotter"
+  homepage "https://playsthetic.com/trotter"
 
   livecheck do
     url "https://api.playsthetic.com/v1/trotter"

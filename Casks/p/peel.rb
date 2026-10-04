@@ -5,7 +5,7 @@ cask "peel" do
   url "https://api.playsthetic.com/v1/peel/download/#{version}/aarch64-apple-darwin"
   name "Peel"
   desc "Leverageable tagging"
-  homepage "https://playsthetic.com/application/peel"
+  homepage "https://playsthetic.com/peel"
 
   livecheck do
     url "https://api.playsthetic.com/v1/peel"
