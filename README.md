@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Playsthetic's [applications](https://playsthetic.com/application) for macOS.
+Playsthetic's [applications](https://playsthetic.com/applications) for macOS.
 
 ## Install
 
