@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Playsthetic's applications for macOS.
+Playsthetic's [applications](https://playsthetic.com/application) for macOS.
 
 ## Install
 
@@ -8,19 +8,7 @@ Playsthetic's applications for macOS.
 
 Or `brew tap playsthetic/tap` and then `brew install --cask <cask>`.
 
-## Casks
-
-| Cask | Application |
-| --- | --- |
-| `gamecase` | [Gamecase](https://playsthetic.com/application/gamecase) |
-| `gifted` | [Gifted](https://playsthetic.com/application/gifted) |
-| `gitoptic` | [Gitoptic](https://playsthetic.com/application/gitoptic) |
-| `grimoire` | [Grimoire](https://playsthetic.com/application/grimoire) |
-| `peel` | [Peel](https://playsthetic.com/application/peel) |
-| `playa` | [Playa](https://playsthetic.com/application/playa) |
-| `ramble` | [Ramble](https://playsthetic.com/application/ramble) |
-| `rollpaper` | [Rollpaper](https://playsthetic.com/application/rollpaper) |
-| `trotter` | [Trotter](https://playsthetic.com/application/trotter) |
+Once tapped, `brew tap-info playsthetic/tap` lists the available casks. They are also the files under [`Casks`](Casks).
 
 ## Documentation
 
