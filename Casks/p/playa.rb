@@ -2,13 +2,13 @@ cask "playa" do
   version "1.5.0"
   sha256 "4044eefaa9715b4639de151cce9c142b6f777fb6198da4138a33a1621ece1795"
 
-  url "https://api.douglaslassance.me/v1/playa/download/#{version}/aarch64-apple-darwin"
+  url "https://api.playsthetic.com/v1/playa/download/#{version}/aarch64-apple-darwin"
   name "Playa"
   desc "Play your own music"
-  homepage "https://douglaslassance.me/playa"
+  homepage "https://playsthetic.com/application/playa"
 
   livecheck do
-    url "https://api.douglaslassance.me/v1/playa"
+    url "https://api.playsthetic.com/v1/playa"
     strategy :json do |json|
       json["latest"]
     end
