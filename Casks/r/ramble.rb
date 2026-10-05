@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "ramble" do
-  version "1.1.0"
-  sha256 "c76fc262098e146c690b072472492981262a63e6fed11ce83fab664991e3c1a0"
+  version "1.2.0"
+  sha256 "8c2908809632ac85de79a61aa715b005cdc11a5ce8a1a76f73a389a73ff094ab"
 
   url "https://api.playsthetic.com/v1/ramble/download/#{version}/aarch64-apple-darwin"
   name "Ramble"
@@ -19,8 +21,8 @@ cask "ramble" do
   app "Ramble.app"
 
   zap trash: [
-    "~/Library/Application Support/me.douglaslassance.ramble",
-    "~/Library/Caches/me.douglaslassance.ramble",
-    "~/Library/Preferences/me.douglaslassance.ramble.plist",
+    "~/Library/Application Support/com.playsthetic.ramble",
+    "~/Library/Caches/com.playsthetic.ramble",
+    "~/Library/Preferences/com.playsthetic.ramble.plist",
   ]
 end
