@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "gamecase" do
   version "1.0.0"
-  sha256 "5bfb03654e43fc179ea226e9aa82e77b336c9a24ec750a8e41787adb190db467"
+  sha256 "5610f537c3723c572916d6f96832e30e72dcf798cf9073cc66da69ee7daa87ad"
 
   url "https://api.playsthetic.com/v1/gamecase/download/#{version}/aarch64-apple-darwin"
   name "Gamecase"
@@ -21,6 +23,6 @@ cask "gamecase" do
   zap trash: [
     "~/Library/Application Support/Gamecase",
     "~/Library/Caches/Gamecase",
-    "~/Library/Preferences/me.douglaslassance.mamecase.plist",
+    "~/Library/Preferences/com.playsthetic.gamecase.plist",
   ]
 end
