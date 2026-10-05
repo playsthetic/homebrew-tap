@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "rollpaper" do
-  version "1.4.0"
-  sha256 "046c9f8be314b0c6d708fd095b198ee5447f9bb38c22bda64e9f3d6ba760d531"
+  version "1.5.0"
+  sha256 "6d060fc52769983195d6fe256cae08ac07279ee942d6ac113c59f1c82c61d278"
 
   url "https://api.playsthetic.com/v1/rollpaper/download/#{version}/aarch64-apple-darwin"
   name "Rollpaper"
@@ -20,7 +22,7 @@ cask "rollpaper" do
 
   zap trash: [
     "~/Library/Application Support/Rollpaper",
-    "~/Library/Caches/me.douglaslassance.rollpaper",
-    "~/Library/Preferences/me.douglaslassance.rollpaper.plist",
+    "~/Library/Caches/com.playsthetic.rollpaper",
+    "~/Library/Preferences/com.playsthetic.rollpaper.plist",
   ]
 end
