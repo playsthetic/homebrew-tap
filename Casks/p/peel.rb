@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "peel" do
-  version "1.4.0"
-  sha256 "bc33dd58398b8ebf34ac7c658322c96ba3e03f9a29150037e9c4efe7dfae0832"
+  version "1.5.0"
+  sha256 "224bd087a83ffa10125ebcc352d9cc17ff45e0acfd58003d5d04d453d500d20a"
 
   url "https://api.playsthetic.com/v1/peel/download/#{version}/aarch64-apple-darwin"
   name "Peel"
@@ -19,7 +21,7 @@ cask "peel" do
   app "Peel.app"
 
   zap trash: [
-    "~/Library/Application Scripts/me.douglaslassance.peel",
-    "~/Library/Containers/me.douglaslassance.peel",
+    "~/Library/Application Scripts/com.playsthetic.peel",
+    "~/Library/Containers/com.playsthetic.peel",
   ]
 end
