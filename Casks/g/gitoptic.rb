@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "gitoptic" do
-  version "0.4.0"
-  sha256 "e8a7f1e7ef120b2545be3b11b4053328c7d28e13b0bc11cbe7c07c6e511e96ef"
+  version "0.5.0"
+  sha256 "ae6d2bedbb45445c5ef9ab85443d8d8c1296a174259ba1ad5f243e3262627e8d"
 
   url "https://api.playsthetic.com/v1/gitoptic/download/#{version}/aarch64-apple-darwin"
   name "Gitoptic"
@@ -19,8 +21,8 @@ cask "gitoptic" do
   app "Gitoptic.app"
 
   zap trash: [
-    "~/Library/Application Support/me.douglaslassance.gitoptic",
-    "~/Library/Caches/me.douglaslassance.gitoptic",
-    "~/Library/Preferences/me.douglaslassance.gitoptic.plist",
+    "~/Library/Application Support/com.playsthetic.gitoptic",
+    "~/Library/Caches/com.playsthetic.gitoptic",
+    "~/Library/Preferences/com.playsthetic.gitoptic.plist",
   ]
 end
