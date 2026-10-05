@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 cask "gifted" do
-  version "0.4.0"
-  sha256 "c2764a27b48b1019fa08cb2dab29db21512b1af69ffc38e8147c159be6f39bb5"
+  version "0.5.0"
+  sha256 "4f6e12bf6226062f559a300e0bf958a82512e03b6973713abc5f4ee8849e8922"
 
   url "https://api.playsthetic.com/v1/gifted/download/#{version}/aarch64-apple-darwin"
   name "Gifted"
@@ -19,8 +21,8 @@ cask "gifted" do
   app "Gifted.app"
 
   zap trash: [
-    "~/Library/Application Support/me.douglaslassance.gifted",
-    "~/Library/Caches/me.douglaslassance.gifted",
-    "~/Library/Preferences/me.douglaslassance.gifted.plist",
+    "~/Library/Application Support/com.playsthetic.gifted",
+    "~/Library/Caches/com.playsthetic.gifted",
+    "~/Library/Preferences/com.playsthetic.gifted.plist",
   ]
 end
