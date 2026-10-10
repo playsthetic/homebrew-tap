@@ -1,14 +1,14 @@
-# homebrew-tap
+# homebrew-playsthetic-tap
 
 Playsthetic's [applications](https://playsthetic.com/applications) for macOS.
 
 ## Install
 
-`brew install playsthetic/tap/<cask>`
+`brew install playsthetic/playsthetic-tap/<cask>`
 
-Or `brew tap playsthetic/tap` and then `brew install --cask <cask>`.
+Or `brew tap playsthetic/playsthetic-tap` and then `brew install --cask <cask>`.
 
-Once tapped, `brew tap-info playsthetic/tap` lists the available casks. They are also the files under [`Casks`](Casks).
+Once tapped, `brew tap-info playsthetic/playsthetic-tap` lists the available casks. They are also the files under [`Casks`](Casks).
 
 ## Documentation
 

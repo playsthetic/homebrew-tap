@@ -44,7 +44,7 @@ on:
         type: boolean
 
 env:
-  TAP_SUFFIX: tap
+  TAP_SUFFIX: playsthetic-tap
   HOMEBREW_DEVELOPER: 1
   HOMEBREW_NO_AUTO_UPDATE: 1
   HOMEBREW_NO_INSTALL_FROM_API: 1
